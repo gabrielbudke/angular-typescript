@@ -5,12 +5,15 @@
 </div>
 
 <p align="center">
-   <a href="#pushpin-info">Info</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+   <a href="#pushpin-info">Info</a>   |   
    <a href="#open_file_folder-conteudos">Módulos</a>  
 </p>
 
-## :pushpin: Info
+## 📌 Info
 
 Esse respositório é destinado ao curos e estudo de TypeScript e Angular ministrado pela Cod3r.
 
-## :open_file_folder: Módulos
+## 📂 Módulos
+
+1. Conceitos
+2.
