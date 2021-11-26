@@ -16,4 +16,6 @@ Esse respositório é destinado ao curos e estudo de TypeScript e Angular minist
 ## 📂 Módulos
 
 1. Conceitos
+   1. Typescript
+   2. Angular
 2.
