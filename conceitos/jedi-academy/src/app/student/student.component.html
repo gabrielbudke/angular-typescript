@@ -1,6 +1,7 @@
-<div>
+<div *ngIf="student.name">
    Student: {{ student.name }}
-   <div [hidden]="!student.isJedi">
+   <div *ngIf="student.isJedi">
       Jedi Temple: {{ student.temple }}
    </div>
 </div>
+<p *ngIf="!student.name">Sem dados para exibir!</p>

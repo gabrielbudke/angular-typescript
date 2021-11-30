@@ -12,10 +12,12 @@ export class StudentComponent implements OnInit {
   @Input() student: Student;
 
   constructor() {
-    this.student = {};
+    this.student = {
+      name: "",
+      isJedi: false
+    };
   }
 
-  ngOnInit(): void {
-  }
+  ngOnInit(): void { }
 
 }
