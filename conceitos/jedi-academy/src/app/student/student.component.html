@@ -3,5 +3,7 @@
    <div *ngIf="student.isJedi">
       Jedi Temple: {{ student.temple }}
    </div>
+   <button (click)="sayMayTheForceBeWithYou($event)" *ngIf="student.isJedi">{{ student.name }}, dia a saudação
+      Jedi!</button>
 </div>
 <p *ngIf="!student.name">Sem dados para exibir!</p>

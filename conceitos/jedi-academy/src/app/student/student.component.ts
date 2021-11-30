@@ -20,4 +20,9 @@ export class StudentComponent implements OnInit {
 
   ngOnInit(): void { }
 
+  sayMayTheForceBeWithYou(event: Event): void {
+    console.log(`Event: ${event}`);
+    alert("May the force be with you!");
+  }
+
 }
